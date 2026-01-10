@@ -252,4 +252,67 @@ nav .btn-nav {
 
 }
 
+.brain {
+  padding: 120px 0;
+}
+
+.brain-grid {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  align-items: center;
+  gap: 80px;
+}
+
+.brain-image img {
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+}
+
+.brain-text {
+  max-width: 460px;
+}
+
+.brain-text .label {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #2f8f5b;
+}
+
+.brain-text p{
+  font-size: 16px;
+  color: #627382;
+  margin-top: 20px;
+}
+
+.brain-text ul {
+  list-style: none;
+  margin-top: 24px;
+}
+
+.brain-text ul li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #0f172a;
+}
+
+
+.brain-text ul li i {
+  width: 20px;
+  height: 20px;
+  background: #22c55e; 
+  color: white;
+  border-radius: 50%;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
 
